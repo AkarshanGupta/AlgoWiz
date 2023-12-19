@@ -31,6 +31,6 @@ gaining insights into their inner workings at your own pace.
 # Thoughts 
 * This Algorithm visualizer have a user friendly interface and it is made on the sorting algorithm.
   This conatins all the sorting algorithm which are common in use.
-  This also have a **ALL** button in navbar which have all the sorting together and it help to identify the whihc algorithm how how much does it take.
+  This also have a **ALL** button in navbar which have all the sorting together and it help to identify the which algorithm how much does it take.
   There is also a speed up button which speeds the process of sorting.It also have generate button which will randomnly generate a sequence of number.
   It also swaps count which helps to keep track of how mnay time swapping is done.
