@@ -39,29 +39,19 @@ export function NavBar() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          textAlign:"center",
-          heigth:"500px",
-          width:"500px",
-          padding_left:"300px",
-
-        
-          
-          
-
-    
+          textAlign: "center",
+          height: "500px",
+          width: "500px",
+          paddingLeft: "300px",
         }}
       >
-       < className="containee"><h3>AlgoWiz</h3>
-        {/* <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat,</br>
-        <br> laboriosam fugit architecto voluptatum ipsam illum quam animi distinctio </br>
-        <img src={logo}></img>
-        <br> quibusdam excepturi iure a reprehenderit iusto cupiditate tempore! Quos, facere quibusdam.</br></p> */}
-      {/* <div className="container"> <img src={logo}></img></div> */}
-   
-    
-
+        <div className="containee">
+          <h3>AlgoWiz</h3>
+          {/* Content goes here */}
+        </div>
+        {/* GitHub icon */}
       </div>
-     
+
       <AppBar position="static" color="default">
         <Tabs
           value={algorithm}
@@ -72,17 +62,17 @@ export function NavBar() {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-               
-          {sortingAlgorithms.map((algorithm) => (
+          {sortingAlgorithms.map((algorithm, index) => (
             <Tab
               label={algorithm.title}
-              {...a11yProps(0)}
+              {...a11yProps(index)}
               key={algorithm.title}
             />
           ))}
-          <Tab label="All" {...a11yProps(6)} />
+          <Tab label="All" {...a11yProps(sortingAlgorithms.length)} />
         </Tabs>
       </AppBar>
     </div>
   );
 }
+
