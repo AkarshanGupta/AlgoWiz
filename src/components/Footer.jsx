@@ -15,7 +15,7 @@ export function Footer() {
   return (
     <FooterDiv>
                {/* Made by &nbsp;Akarshan,Sahil,Srushti,Sneha&nbsp; &nbsp;&nbsp; &nbsp; */}
-    For any complain/query send it on our mail &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<a href="">a1234spam@gmail.com</a>
+    For any complaint/query send it on our mail &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<a href="">a1234spam@gmail.com</a>
   
 
     </FooterDiv>
