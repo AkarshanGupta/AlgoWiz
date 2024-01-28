@@ -51,12 +51,13 @@ export function NavBar() {
     
         }}
       >
-       <div className="containee"><h3>AlgoWiz</h3></div>&nbsp;
+       < className="containee"><h3>AlgoWiz</h3>
         {/* <p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat,</br>
         <br> laboriosam fugit architecto voluptatum ipsam illum quam animi distinctio </br>
+        <img src={logo}></img>
         <br> quibusdam excepturi iure a reprehenderit iusto cupiditate tempore! Quos, facere quibusdam.</br></p> */}
       {/* <div className="container"> <img src={logo}></img></div> */}
-      &nbsp;&nbsp;<img src={logo}></img>
+   
     
 
       </div>
